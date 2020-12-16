@@ -5,7 +5,6 @@ spring:
 ---
 spring:
   profiles: dev
-<<<<<<< HEAD
     application: 
       name: microservice-config-dev
 ---
@@ -13,12 +12,4 @@ spring:
   profiles: test
     application: 
       name: microservice-config-test
-=======
-  application: 
-    name: microservice-config-dev
----
-spring:
-  profiles: test
-  application:
-    name: microservice-config-test
->>>>>>> d21ec834a08cf3179900d780c2f177a624db66db
+ 
